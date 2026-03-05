@@ -1,0 +1,9 @@
+{
+  "cSpell.language": "en,pt",
+  "cSpell.words": [
+    "tuwunel"
+  ],
+  "tinymist.typstExtraArgs": [
+    "--input=lang=en"
+  ]
+}

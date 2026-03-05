@@ -1,11 +1,15 @@
 #import "@preview/basic-resume:0.2.9": *
+#import "/transl.typ": author, format_list, present, skills, technologies, transl
 
 #project(
   name: "rustidy",
-  role: "Author",
-  dates: dates-helper(start-date: "Oct 2025", end-date: "Present"),
+  role: author,
+  dates: dates-helper(start-date: "2025", end-date: present),
   url: "github.com/Zenithsiz/rustidy",
 )
-- Created and maintain a very configurable formatter for the rust language
-- Technologies: Rust
-- Skills: Language parsing.
+- #context transl(
+    en: [Created and maintain a very configurable formatter for the rust language.],
+    pt: [Criei e mantenho um formatador muito configuravel para a lingua Rust],
+  )
+- #technologies: Rust
+- #skills: #context transl(en: [Language parsing.], pt: [Análise Sintática de Linguagem.])
