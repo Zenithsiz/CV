@@ -153,7 +153,7 @@
 )
 #let intermediate = context transl(
   en: [*Intermediate*],
-  pt: [*Intermediário*],
+  pt: [*Intermédio*],
 )
 #let beginner = context transl(
   en: [*Beginner*],
