@@ -176,6 +176,21 @@
 )
 - *#programming_languages_prefix*: #programming_languages
 
+#let network_technologies_prefix = context transl(
+  en: [Networking technologies & protocols],
+  pt: [Tecnologias e Protocolos de _Networking_],
+);
+#let network_technologies = context format_list(
+  [IP (IPv4 & IPv6)],
+  [MPLS],
+  [TCP (TLS & SSL)],
+  [UDP (QUIC)],
+  [RIP (RIPv2 & RIPng)],
+  [OSPF (v2 & v3)],
+  [BGP (iBGP & EBGP)],
+)
+- *#network_technologies_prefix*: #network_technologies
+
 #let technologies_list = context format_list(
   [Git (#advanced)],
   [Unix/Linux (#intermediate)],
